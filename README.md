@@ -10,29 +10,29 @@
 
 ## 包内内容
 
-- `mba-thesis-papers` 技能2.0版及按任务加载的专题参考。
+- `mba-thesis-papers` 合并版 2.2.0，整合原 `mba-thesis-papers` 与 `mba-youxiu-lunwen-moban` 的内容。
+- 支持本地范文库与 Agentero 的检索、速读和比较。
 - 18篇MBA论文的原创脱敏学习卡，另附目录级案例和来源限制。
 - 研究问题、开题与提纲、文献述评、访谈问卷、证据链、实施评价与章节审查工作表。
 - 战略、营销、服务、风险内控、流程改进与测评优化的不同研究路径。
-- 验证说明与通用包检查脚本。
 
 不包含第三方论文原件、全文提取结果、原图表、含身份信息的文件名、企业资料、作者私稿、账号或密钥。
 
 ## 安装与使用
 
-解压后，把 `mba-thesis-writing-skill/skills/mba-thesis-papers` 整个文件夹复制到技能目录。Codex常见位置：
+解压后，把 `mba-thesis-writing-skill/skills/mba-thesis-papers` 整个文件夹复制到技能目录。
 
 ```text
 ~/.codex/skills/mba-thesis-papers
 ```
 
-使用自定义 `CODEX_HOME` 时以其 `skills` 目录为准。已有同名技能请先备份到技能目录之外，再替换。其他支持Skill的工具按其各自目录规范安装。
+使用自定义 `CODEX_HOME` 时以其 `skills` 目录为准。已有同名技能请先备份到技能目录之外，再替换。
 
 调用示例：
 
 ```text
 使用 $mba-thesis-papers，根据我的研究对象、管理问题和真实资料，
-形成三级提纲与证据采集计划；指出资料缺口，不编造数据。
+形成三级提纲与证据采集计划，指出资料缺口，不编造数据。
 ```
 
 ## 使用边界
